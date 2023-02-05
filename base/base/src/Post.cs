@@ -5,9 +5,11 @@ class Post
 {
     private string name;
     private int salary;
-    public Post(string name, int salary)
+    private Division division;
+    public Post(string name, int salary, Division division)
     {
         this.name = name;
         this.salary = salary;
+        this.division = division;
     }
 }
