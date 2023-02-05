@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{490CCB68-081C-4685-A15D-20D2266A998C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>base</RootNamespace>
+    <AssemblyName>@base</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Auditory.cs" />
+    <Compile Include="src\Building.cs" />
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\Competence.cs" />
+    <Compile Include="src\Content.cs" />
+    <Compile Include="src\Discipline.cs" />
+    <Compile Include="src\Division.cs" />
+    <Compile Include="src\Employee.cs" />
+    <Compile Include="src\Equipment.cs" />
+    <Compile Include="src\ExtraActivity.cs" />
+    <Compile Include="src\Group.cs" />
+    <Compile Include="src\KTP.cs" />
+    <Compile Include="src\KTPHeader.cs" />
+    <Compile Include="src\Lesson.cs" />
+    <Compile Include="src\LessonType.cs" />
+    <Compile Include="src\Organization.cs" />
+    <Compile Include="src\Pair.cs" />
+    <Compile Include="src\Paragraph.cs" />
+    <Compile Include="src\Post.cs" />
+    <Compile Include="src\Shift.cs" />
+    <Compile Include="src\Specialization.cs" />
+    <Compile Include="src\Student.cs" />
+    <Compile Include="src\Theme.cs" />
+    <Compile Include="src\Theme_LessonType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="src\.git\config" />
+    <None Include="src\.git\description" />
+    <None Include="src\.git\HEAD" />
+    <None Include="src\.git\hooks\applypatch-msg.sample" />
+    <None Include="src\.git\hooks\commit-msg.sample" />
+    <None Include="src\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="src\.git\hooks\post-update.sample" />
+    <None Include="src\.git\hooks\pre-applypatch.sample" />
+    <None Include="src\.git\hooks\pre-commit.sample" />
+    <None Include="src\.git\hooks\pre-merge-commit.sample" />
+    <None Include="src\.git\hooks\pre-push.sample" />
+    <None Include="src\.git\hooks\pre-rebase.sample" />
+    <None Include="src\.git\hooks\pre-receive.sample" />
+    <None Include="src\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="src\.git\hooks\push-to-checkout.sample" />
+    <None Include="src\.git\hooks\update.sample" />
+    <None Include="src\.git\index" />
+    <None Include="src\.git\info\exclude" />
+    <None Include="src\.git\objects\0f\92d6eeee4a53ad398745deb77ccf0fb9914398" />
+    <None Include="src\.git\objects\20\0bc701decea23b8cbacbac68e294ee3b7a403b" />
+    <None Include="src\.git\objects\34\6f94cdaa6a68263e902b2c00e79a8899ea4c94" />
+    <None Include="src\.git\objects\55\d7e6aa99decce08b65a63ee6bf269a4d281eda" />
+    <None Include="src\.git\objects\5a\ae4b2fca5d86f9623d34cc74cbf22cefb67bcc" />
+    <None Include="src\.git\objects\5c\8027c0fefcc2f7b2c921dee85a1df884156f6c" />
+    <None Include="src\.git\objects\63\f5e7f04aaa48c3dec9740ad6c2f36b625a7caa" />
+    <None Include="src\.git\objects\65\4730e420d2d35b8e056580e57e27a69b89351b" />
+    <None Include="src\.git\objects\68\b71229c1c2172c229e3abe034d5f952cbd03cb" />
+    <None Include="src\.git\objects\7f\784008a03620c0e0f8152deee581cb514993c7" />
+    <None Include="src\.git\objects\a2\3611199132e1335b117ca1b0ee1385fec133aa" />
+    <None Include="src\.git\objects\a2\5eff6e2c7e7ef097ddd300370d2535cb59e5f6" />
+    <None Include="src\.git\objects\a8\35580d70b705c068413bc86f2a0ca1661d199f" />
+    <None Include="src\.git\objects\a9\0ed5ebeaa045cdfd8fba33888dd99dd619a7e9" />
+    <None Include="src\.git\objects\bb\a2b078b80fbe4a9e57fd313f0392343fe6ed12" />
+    <None Include="src\.git\objects\c3\49c8694dc289d70292c8d67389a06b8a980e50" />
+    <None Include="src\.git\objects\c7\e2bd644d5781a447028544f2a9a68094e5b55d" />
+    <None Include="src\.git\objects\c8\a750126b43af0478b66c60f737fa454303961f" />
+    <None Include="src\.git\objects\c9\78c39369cdd5f7758f061fd5d396bc06d18eba" />
+    <None Include="src\.git\objects\cf\42de9a6da6388d404a2f7be609ae3e3ba7442a" />
+    <None Include="src\.git\objects\da\885ebe575ad65f33bc70dc0f0cec8a209b8dfc" />
+    <None Include="src\.git\objects\e9\959f895a3c21f41ff7e81a92dd507a7f202886" />
+    <None Include="src\.git\objects\fa\d4aaea348d21209dc8b6bd6e6bdd72466fc3ea" />
+    <None Include="src\.git\objects\fd\949c7d53caf097078bac34fe6272a27a80b983" />
+    <None Include="src\.vs\slnx.sqlite" />
+    <None Include="src\.vs\src\FileContentIndex\bf97c050-14c9-4f6a-9dc3-06eede0300dc.vsidx" />
+    <None Include="src\.vs\src\FileContentIndex\read.lock" />
+    <None Include="src\.vs\src\v17\.wsuo" />
+    <None Include="src\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\.git\fsmonitor--daemon\cookies\" />
+    <Folder Include="src\.git\objects\info\" />
+    <Folder Include="src\.git\objects\pack\" />
+    <Folder Include="src\.git\refs\heads\" />
+    <Folder Include="src\.git\refs\tags\" />
+    <Folder Include="src\.vs\src\FileContentIndex\merges\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\main.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

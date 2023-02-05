@@ -1,0 +1,8 @@
+C:\Users\Pawel\Desktop\С#\base\base\bin\Debug\@base.exe.config
+C:\Users\Pawel\Desktop\С#\base\base\bin\Debug\@base.exe
+C:\Users\Pawel\Desktop\С#\base\base\bin\Debug\@base.pdb
+C:\Users\Pawel\Desktop\С#\base\base\obj\Debug\base.csproj.AssemblyReference.cache
+C:\Users\Pawel\Desktop\С#\base\base\obj\Debug\base.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pawel\Desktop\С#\base\base\obj\Debug\base.csproj.CoreCompileInputs.cache
+C:\Users\Pawel\Desktop\С#\base\base\obj\Debug\@base.exe
+C:\Users\Pawel\Desktop\С#\base\base\obj\Debug\@base.pdb
